@@ -47,12 +47,7 @@ public class StudentController
         studentService.deleteStudent(id);
         return ResponseEntity.noContent().build();
     }
-	
-	@GetMapping
-	public List<Student> getAllStudents()
-	{
-		return studentService.getAllStudents();
-	}
+
 }
             
             
